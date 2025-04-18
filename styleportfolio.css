@@ -1,0 +1,43 @@
+body{
+  background-color: white;
+  font-size: 20px;
+}
+
+@keyframes flash{
+  from{color: red};
+  to{color: green};
+}
+.flash-update{
+  animation-name: flash;
+  animation-duration: 2s;
+  animation-iteration-count: 5;
+}
+header{
+  color: orange;
+  background-color: #4a90e2;
+  margin: -20px;
+  padding: 1rem;
+  text-align: center;
+}
+
+section{
+  max-width: 800px;
+  padding: 1rem;
+  margin: 2rem auto;
+}
+h2, h3{
+  color: #34Fa;
+}
+.project {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-left: 5px solid green;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+footer{
+  text-align: center;
+  color: #D2d;
+  background-color: #4d45;
+  margin:-20px;
+  padding: 16px;
+}
